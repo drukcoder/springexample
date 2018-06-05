@@ -24,18 +24,19 @@
 	</dependency> 
   </dependencies>
 <profiles>
+	
 	<profile>
      <id>xyz-deploy</id>
  <distributionManagement>
     <repository>
       <id>xyz-releases</id>
       <name>xyz-releases</name>
-      <url>http://ec2-18-188-238-195.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/xyz-releases/</url>
-    </repository>
+      <url>http://ec2-13-127-67-229.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/xyz-releases/</url>
+	 </repository>
     <snapshotRepository>
       <id>xyz-snapshots</id>
       <name>xyz-snapshots</name>
-      <url>http://ec2-18-188-238-195.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/xyz-snapshots/</url>
+      <url>http://ec2-13-127-67-229.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/xyz-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
